@@ -1,6 +1,6 @@
-# CareerCraft AI
+# Craftify
 
-CareerCraft AI is an innovative project designed to assist job seekers in optimizing their resumes for Applicant Tracking Systems (ATS), tailoring their resumes to specific job descriptions, and providing key ATS keyword mentions in both the resume and job description. Additionally, CareerCraft AI features a job portal similar to Google Jobs, offering users access to job listings.
+Craftify is an innovative project designed to assist job seekers in optimizing their resumes for Applicant Tracking Systems (ATS), tailoring their resumes to specific job descriptions, and providing key ATS keyword mentions in both the resume and job description. Additionally, Craftify features a job portal similar to Google Jobs, offering users access to job listings.
 
 ## Features
 
@@ -12,7 +12,7 @@ CareerCraft AI is an innovative project designed to assist job seekers in optimi
 
 ## Installation
 
-To use CareerCraft AI, follow these steps:
+To use Craftify, follow these steps:
 
 1. Clone or download the repository to your local machine.
 2. Install the required libraries using pip:
@@ -41,7 +41,7 @@ To use CareerCraft AI, follow these steps:
 
 ## Contributors
 
-- [Muhammad Moid](https://github.com/MoidAltaf33/)
+- [karanDubey400](https://github.com/KaranDubey400/)
 ## Acknowledgements
 
 - Streamlit: https://streamlit.io/
