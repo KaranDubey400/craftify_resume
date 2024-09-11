@@ -10,13 +10,10 @@ from Frontend.job_portal import JobPortal as JP
 from Frontend.about import About_section as Ab_sec
 
 # File Path
-image_path = r"assets/logo/Colorlogo.png"
-
-
-
+image_path = r"assets/logo/grey.png"
 
 def main():
-    st.set_page_config(layout="wide")
+    
     hide_menu = """
         <style>
         #MainMenu {visibility:hidden;}
@@ -55,7 +52,31 @@ def main():
     # Place the button inside the middle column
     with col2:
         st.button(f"Next Page", key='switch_button')
-   
+    # Footer note
+    footer_html = """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: -9px;
+            width: 100%;
+            background-color: #C8A1E0;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        .footer b{
+            color: #33372C;
+            font-size: 20px;
+        }
+    </style>
+    <div class="footer">
+        <b>Craftify</b>
+        <p>karn, prerna , sunishka </p>
+    </div>
+    """
+    st.markdown(footer_html, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
