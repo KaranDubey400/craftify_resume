@@ -5,30 +5,11 @@ Craftify is an innovative project designed to assist job seekers in optimizing t
 ## Features
 
 - **ATS Scanner**: Utilizes NLP algorithms like Spacy and NLTK to analyze resumes and ensure compatibility with Applicant Tracking Systems.
-- **Resume Tailoring**: Helps users tailor their resumes to specific job descriptions by identifying relevant keywords and phrases.
 - **ATS Keyword Mention**: Highlights key ATS keywords mentioned in both the resume and job description, ensuring alignment.
 - **Job Portal**: Offers a job portal feature similar to Google Jobs, providing users with access to job listings.
 - **Streamlit Framework**: Built using Python and Streamlit framework for a user-friendly interface.
 
-## Installation
 
-To use Craftify, follow these steps:
-
-1. Clone or download the repository to your local machine.
-2. Install the required libraries using pip:
-   
-   pip install -r requirements.txt
-   
-4. Run the Streamlit app:
-   
-   streamlit run streamlit_app.py
-   
-## Usage
-
-1. **ATS Scanner**: Upload your resume to the application to analyze its compatibility with ATS.
-2. **Resume Tailoring**: Enter a job description to receive suggestions on how to tailor your resume accordingly.
-3. **ATS Keyword Mention**: View highlighted ATS keywords mentioned in both the resume and job description.
-4. **Job Portal**: Explore job listings and apply directly from the application.
 
 ## Technologies Used
 
