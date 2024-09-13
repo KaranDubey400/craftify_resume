@@ -10,7 +10,7 @@ class About_section():
 
         # Key Features
         st.markdown("<h2 style='color:  #F05A7E;'>Key Features:</h2>", unsafe_allow_html=True)
-        st.markdown("<h3 style='color:  #F05A7E;'>1. Resume Analyzer (Resume Parser):</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='color:  #F05A7E;'>1 Resume Analyzer (Resume Parser):</h3>", unsafe_allow_html=True)
         st.write("   Craftify's flagship feature, the Resume Analyzer, is a sophisticated tool that parses resumes and job descriptions with precision. Utilizing advanced NLP algorithms, it identifies critical information such as the user's contact details, location, and crucial keywords. By comparing the user's resume with target job descriptions, it provides comprehensive insights into missing keywords and essential hard and soft skills sought by recruiters. Moreover, the built-in ATS Scanner ensures seamless integration with applicant tracking systems, optimizing resume visibility.")
         st.markdown("<h3 style='color:  #F05A7E;'>2. Job Suggestion Searching Platform:</h3>", unsafe_allow_html=True)
         st.write("   Simplifying the job search process, Craftify offers a personalized job suggestion platform. Through intelligent algorithms analyzing user search history and preferences, the platform delivers curated job listings tailored to match the user's interests and qualifications.")
